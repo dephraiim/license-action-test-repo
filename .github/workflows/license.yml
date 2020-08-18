@@ -20,5 +20,5 @@ jobs:
     - name: Adding License
       uses: dephraiim/license-action@v0.1.13
       with:
-        LICENSE_TYPE: MIT
+        LICENSE_TYPE: Unlicense
         AUTHOR: Ephraim Atta-Duncan
