@@ -18,7 +18,7 @@ jobs:
       with:
         node-version: 12.x
     - name: License Action
-      uses: dephraiim/license-action@v0.1.4
+      uses: dephraiim/license-action@v0.1.5
       with:
         LICENSE_TYPE: MIT
         AUTHOR: Ephraim Atta-Duncan
