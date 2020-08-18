@@ -24,4 +24,4 @@ jobs:
         AUTHOR: Ephraim Atta-Duncan
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GITHUB_WORKSPACE: ${{ secrets.GITHUB_WORKSPACE }} 
+        HOME: ${{ secrets.HOME }} 
