@@ -22,7 +22,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: License Action
-      uses: dephraiim/license-action@v0.1
+      uses: dephraiim/license-action@v0.1.1
       with:
         LICENSE_TYPE: MIT
         AUTHOR: Ephraim Atta-Duncan
