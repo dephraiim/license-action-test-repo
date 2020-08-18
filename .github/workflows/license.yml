@@ -18,9 +18,10 @@ jobs:
       with:
         node-version: 12.x
     - name: License Action
-      uses: dephraiim/license-action@v0.1.1
+      uses: dephraiim/license-action@v0.1.2
       with:
         LICENSE_TYPE: MIT
         AUTHOR: Ephraim Atta-Duncan
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_WORKSPACE: ${{ secrets.GITHUB_WORKSPACE }} 
