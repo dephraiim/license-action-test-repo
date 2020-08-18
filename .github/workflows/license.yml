@@ -18,10 +18,11 @@ jobs:
       with:
         node-version: 12.x
     - name: Adding License
-      uses: dephraiim/license-action@v0.1.11
+      uses: dephraiim/license-action@v0.1.12
       with:
         LICENSE_TYPE: MIT
         AUTHOR: Ephraim Atta-Duncan
+        EMAIL: ephraimduncan68@gmail.com 
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 #         HOME: ${{ secrets.HOME }} 
