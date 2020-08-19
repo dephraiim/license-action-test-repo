@@ -20,5 +20,5 @@ jobs:
     - name: Adding License
       uses: dephraiim/license-action@v0.2
       with:
-        LICENSE_TYPE: ISC
+        LICENSE_TYPE: MIT
         AUTHOR: Ephraim Atta-Duncan
